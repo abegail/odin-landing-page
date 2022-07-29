@@ -2,3 +2,51 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.testimonials {
+    background-color: #E4E7EB;
+}
+
+.cta {
+    background-color: #3B81F6;
+}
+
+header,
+footer,
+.hero-text .title,
+.cta {
+    color: whitesmoke;
+}
+
+.hero .description,
+.image {
+    color: #C7CBD0;
+}
+
+.card .description {
+    color: #68717C;
+}
+
+.testimonials,
+.features .title {
+    color: #2A3341;
+}
+
+.hero .image {
+    background-color: #6C747D;
+}
+
+button {
+    background-color: #3B81F6;
+    border-radius: 8px;
+}
