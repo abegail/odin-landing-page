@@ -1,1 +1,1 @@
-# odin-landing-page
+This is my submission for the Landing Page Project of TOP Foundations Course.
