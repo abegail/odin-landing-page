@@ -5,6 +5,52 @@
 
 body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+.nav-bar ul,
+.hero,
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    gap: 40px;
+}
+
+.nav-bar ul {
+    gap: 30px;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero .description {
+    padding: 20px 0;
+}
+
+.image {
+    width: 530px;
+    height: 230px;
+    flex: initial;
+}
+
+header,
+footer,
+.hero,
+.features,
+.testimonials,
+.cta {
+    padding: 20px 200px;
 }
 
 header,
@@ -63,9 +109,15 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: whitesmoke;
+    margin-right: auto;
 }
 
 .hero-text .title {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
