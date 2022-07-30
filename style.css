@@ -50,8 +50,7 @@ header,
 footer,
 .hero,
 .features,
-.testimonials,
-.cta {
+.testimonials {
     padding: 20px 200px;
 }
 
@@ -63,10 +62,6 @@ footer {
 
 .testimonials {
     background-color: #E4E7EB;
-}
-
-.cta {
-    background-color: #3B81F6;
 }
 
 footer,
@@ -153,4 +148,44 @@ button {
     display: flex;
     gap: 50px;
     padding-bottom: 60px;
+}
+
+.testimonials .testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 100px 80px 20px 80px;
+}
+
+.testimonials .attribution {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    padding-right: 150px;
+    padding-bottom: 90px;
+}
+
+.cta {
+    background-color: #3B81F6;
+    margin: 100px 200px;
+    border-radius: 8px;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta .description {
+    color: #C7CBD0;
+}
+
+footer {
+    text-align: center;
+    color: #C7CBD0;
+    padding: 40px 0;
 }
